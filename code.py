@@ -8,7 +8,8 @@ def find_largest(a,b,c):
     else:
         return c
 
-st.title("This is your Largest Number")
+st.title("This is your Largest Number. new version")
+
 
 a = st.number_input("First number:")
 b = st.number_input("Second number:")
