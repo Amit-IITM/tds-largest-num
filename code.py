@@ -8,7 +8,7 @@ def find_largest(a,b,c):
     else:
         return c
 
-st.title("This is your Largest Number. new version")
+st.title("This is your Largest Number.")
 
 
 a = st.number_input("First number:")
@@ -17,4 +17,4 @@ c = st.number_input("Third number:")
 
 if st.button("Largest Number : "):
     largest_num = find_largest(a,b,c)
-    st.write(f"The largest number : {largest_num}")
+    st.write(f"The largest number (idk why editing is not working ??? : {largest_num}")
